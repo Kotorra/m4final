@@ -23,7 +23,6 @@ class Vehiculo():
 		self.modelo=modelonuevo
 		print("Modelo modificado.")
 
-
 	@staticmethod
 	def guardar_datos_csv(listavehiculos):
 		with open("vehiculos.csv", "w", encoding="utf-8", newline='') as Archivo:
